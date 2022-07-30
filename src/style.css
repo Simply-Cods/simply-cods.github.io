@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    background: #2B2B31;
+    color: white;
+    font-family: Lato;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    margin-top: 3rem;
+    border-radius: 15px 15px 0px 0px;
+    background: #585A67;
+}
+
+.info--img {
+    width: 355px;
+    height: 337px; 
+    border-radius: 15px 15px 0px 0px;
+}
+
+.info--text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0.5rem;
+}
+
+#info--name {
+    font-size: 25px;
+}
+
+#info--title {
+    color: #E0970A;
+    font-size: 12.8px;
+    font-weight: 400;
+}
+
+#info--website {
+    font-size: 10.25px;
+    font-weight: 400;
+}
+
+.info--btn {
+    margin-top: 1rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.5rem 0;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 25px;
+    color: #464545;
+}
+
+.info--btn > img {
+    width: 30px;
+    margin-right: 0.5rem;
+}
+
+.section {
+    width: 355px;
+    background: #585A67;
+}
+
+.section > * {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.section-title {
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+.section-text {
+    font-size: 10.25px;
+    margin-top: 0.5rem;
+}
+
+.about > .section-title {
+    margin-top: 2rem;
+}
+
+.interests {
+    height: 6rem;
+}
+
+footer {
+    background: #3C3E46;
+    width: 355px;
+    height: 47px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    margin-bottom: auto;
+}
+
+footer > a {
+    margin: auto
+}
+
+h1, h3, h5, p{
+    margin: 0;
+}
