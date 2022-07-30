@@ -116,6 +116,11 @@ footer > a {
     margin: auto
 }
 
+footer > a > img {
+    width: 25px;
+    height: 25px;
+}
+
 h1, h3, h5, p{
     margin: 0;
 }
